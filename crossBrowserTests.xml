@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="opencartSuite" thread-count="2" parallel="tests">
+<test name="OpencartchromeTests">
+<parameter name="browser" value="chrome" />
+<classes>
+<class name="testCases.TC_001_AccRegstration"/>
+</classes>
+</test>
+
+<test name="OpencartEdgeTests">
+<parameter name="browser" value="edge" />
+<classes>
+<class name="testCases.TC_001_AccRegstration"/>
+</classes>
+</test>
+
+</suite>
