@@ -21,7 +21,7 @@
           <version>3.0.0-M6</version>
            <configuration>
            		 <suiteXmlFiles>
-           		 	<suiteXmlFile>alltests.xml</suiteXmlFile>
+           		 	<suiteXmlFile>TestNG.xml</suiteXmlFile>
            		 </suiteXmlFiles>
           </configuration>
         </plugin>
@@ -94,12 +94,13 @@
     <artifactId>commons-email</artifactId>
     <version>1.5</version>
 </dependency>
-  <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 <dependency>
     <groupId>io.github.bonigarcia</groupId>
     <artifactId>webdrivermanager</artifactId>
-    <version>5.1.0</version>
+    <version>5.1.1</version>
 </dependency>
+
   
   
   
