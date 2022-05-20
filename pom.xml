@@ -21,7 +21,7 @@
           <version>3.0.0-M6</version>
            <configuration>
            		 <suiteXmlFiles>
-           		 	<suiteXmlFile>TestNG.xml</suiteXmlFile>
+           		 	<suiteXmlFile>testng1.xml</suiteXmlFile>
            		 </suiteXmlFiles>
           </configuration>
         </plugin>

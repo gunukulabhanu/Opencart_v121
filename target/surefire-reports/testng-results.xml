@@ -1,63 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="opencartSuite" duration-ms="19556" started-at="2022-05-09T12:02:10 IST" finished-at="2022-05-09T12:02:29 IST">
+  <suite name="opencartSuite" duration-ms="10719" started-at="2022-05-20T16:11:30 IST" finished-at="2022-05-20T16:11:41 IST">
     <groups>
-      <group name="regression">
-        <method signature="TC_001_AccRegstration.test_Account_reg()[pri:0, instance:testCases.TC_001_AccRegstration@289d1c02]" name="test_Account_reg" class="testCases.TC_001_AccRegstration"/>
-      </group> <!-- regression -->
-      <group name="sanity">
-        <method signature="TC_002_Login.loginPage()[pri:0, instance:testCases.TC_002_Login@12c8a2c0]" name="loginPage" class="testCases.TC_002_Login"/>
-      </group> <!-- sanity -->
-      <group name="master">
-        <method signature="TC_001_AccRegstration.test_Account_reg()[pri:0, instance:testCases.TC_001_AccRegstration@289d1c02]" name="test_Account_reg" class="testCases.TC_001_AccRegstration"/>
-        <method signature="TC_002_Login.loginPage()[pri:0, instance:testCases.TC_002_Login@12c8a2c0]" name="loginPage" class="testCases.TC_002_Login"/>
-      </group> <!-- master -->
     </groups>
-    <test name="OpencartTests" duration-ms="19556" started-at="2022-05-09T12:02:10 IST" finished-at="2022-05-09T12:02:29 IST">
-      <class name="testCases.TC_001_AccRegstration">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccRegstration@289d1c02]" name="setup" is-config="true" duration-ms="4727" started-at="2022-05-09T12:02:10 IST" finished-at="2022-05-09T12:02:15 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test name="OpencartTests" duration-ms="10719" started-at="2022-05-20T16:11:30 IST" finished-at="2022-05-20T16:11:41 IST">
+      <class name="testCases.jenkinchecking">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:testCases.jenkinchecking@76a3e297]" name="startBrowser" duration-ms="10688" started-at="2022-05-20T16:11:30 IST" finished-at="2022-05-20T16:11:41 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test_Account_reg()[pri:0, instance:testCases.TC_001_AccRegstration@289d1c02]" name="test_Account_reg" duration-ms="6575" started-at="2022-05-09T12:02:15 IST" finished-at="2022-05-09T12:02:21 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_Account_reg -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.TC_001_AccRegstration@289d1c02]" name="tearDown" is-config="true" duration-ms="723" started-at="2022-05-09T12:02:21 IST" finished-at="2022-05-09T12:02:22 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_001_AccRegstration -->
-      <class name="testCases.TC_002_Login">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_Login@12c8a2c0]" name="setup" is-config="true" duration-ms="1250" started-at="2022-05-09T12:02:22 IST" finished-at="2022-05-09T12:02:23 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginPage()[pri:0, instance:testCases.TC_002_Login@12c8a2c0]" name="loginPage" duration-ms="5350" started-at="2022-05-09T12:02:23 IST" finished-at="2022-05-09T12:02:28 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.TC_002_Login@12c8a2c0]" name="tearDown" is-config="true" duration-ms="663" started-at="2022-05-09T12:02:28 IST" finished-at="2022-05-09T12:02:29 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_002_Login -->
+        </test-method> <!-- startBrowser -->
+      </class> <!-- testCases.jenkinchecking -->
     </test> <!-- OpencartTests -->
   </suite> <!-- opencartSuite -->
 </testng-results>
