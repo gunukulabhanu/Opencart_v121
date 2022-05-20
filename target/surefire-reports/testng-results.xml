@@ -2,12 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="opencartSuite" duration-ms="10719" started-at="2022-05-20T16:11:30 IST" finished-at="2022-05-20T16:11:41 IST">
+  <suite name="opencartSuite" duration-ms="10014" started-at="2022-05-20T18:09:04 IST" finished-at="2022-05-20T18:09:14 IST">
     <groups>
     </groups>
-    <test name="OpencartTests" duration-ms="10719" started-at="2022-05-20T16:11:30 IST" finished-at="2022-05-20T16:11:41 IST">
+    <test name="OpencartTests" duration-ms="10014" started-at="2022-05-20T18:09:04 IST" finished-at="2022-05-20T18:09:14 IST">
       <class name="testCases.jenkinchecking">
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:testCases.jenkinchecking@76a3e297]" name="startBrowser" duration-ms="10688" started-at="2022-05-20T16:11:30 IST" finished-at="2022-05-20T16:11:41 IST">
+        <test-method status="PASS" signature="startBrowser(java.lang.String)[pri:0, instance:testCases.jenkinchecking@6121c9d6]" name="startBrowser" duration-ms="9976" started-at="2022-05-20T18:09:04 IST" finished-at="2022-05-20T18:09:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
