@@ -3,6 +3,7 @@
 <test name="OpencartTests">
 <classes>
 <class name ="testCases.jenkinchecking" />
+  
 </classes>
 </test>
 </suite>
