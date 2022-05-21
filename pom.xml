@@ -24,6 +24,7 @@
            		 	<suiteXmlFile>testng1.xml</suiteXmlFile>
            		 </suiteXmlFiles>
            		 <systemPropertyVariables>
+                 
            		 <browser>${Browser}</browser>
            		 </systemPropertyVariables>
           </configuration>
