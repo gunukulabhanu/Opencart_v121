@@ -2,6 +2,7 @@
 <suite name="opencartSuite">
 <test name="OpencartTests">
 <classes>
+  
 <class name ="testCases.jenkinchecking" />
   
 </classes>
