@@ -27,7 +27,7 @@ public class jenkinchecking {
 		driver.manage().window().maximize();
 		driver.get("https://www.orangehrm.com/");
 		Assert.assertTrue(driver.getTitle().contains("Orange"));
-		System.out.println("completed");
+		System.out.println("Browser is successful");
 	    driver.quit();
 	}
 }
