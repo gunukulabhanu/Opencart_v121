@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="opencartSuite">
+  
 <test name="OpencartTests">
 <classes>
   
-<class name ="testCases.jenkinchecking" />
-  
+<class name ="testCases.jenkinchecking" /> 
 </classes>
 </test>
 </suite>
